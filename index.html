@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Smart Projects</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+<style>
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.formato{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    text-shadow: 3px 3px 8px rgba(253, 253, 253, 0.8);
+    margin-bottom: 30px;
+}
+
+form {
+    background: rgba(0, 0, 0, 0.85); 
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    max-width: 400px;
+    color: white; 
+}
+
+form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+
+.formato{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+}
+
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 25px;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.5);
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.formato{
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 25px;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.5);
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.02);
+}
+
+
+</style>
+</head>
+<body>
+<h1>Smart Projects</h1>
+<form action="#" method="post">
+<h2>Iniciar Sesión</h2>
+<input type="text" placeholder="usuario" name="usuario" required>
+<input type="password" placeholder="contrasena" name="contrasena" required>
+<input type="submit" value="Ingresar">
+<center><h4>¿No tienes cuenta?</h4></center>
+<a href="register.html" class="formato">Registrarse</a>
+<center><h4>¿Olvidaste tu contrasena?</h4></center>
+
+</form>
+</body>
+</html>
